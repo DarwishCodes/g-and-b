@@ -1,0 +1,53 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1.7;
+    color: $color-primary;
+}
+
+.heading-primary {
+    color: $color-primary;
+    font-size: 6rem;
+    font-weight: 100;
+
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.75rem;
+    }
+}
+
+.heading-secondry {
+    font-size: 3.5rem;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.heading-tertiary {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+// .heading-gradient {
+//     background-image: linear-gradient(to right, $color, $color);
+//     -webkit-background-clip: text;
+//     background-clip: text;
+//     color: transparent;
+// }
+
+
+.paragraph {
+    font-size: 2rem;
+    word-spacing: 0.1rem;
+}

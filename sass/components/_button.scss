@@ -1,0 +1,19 @@
+.btn {
+    &,
+    &:link,
+    &:visited {
+        text-decoration: none;
+        padding: 0.5rem 3rem;
+        display: inline-block;
+        font-size: 1.5rem;
+        background-color: $color-primary;
+        color: $color-white;
+        //Change for the <button> element
+        cursor: pointer;
+        border: none;
+    }
+
+    &--width-15 {
+        width: 15rem;
+    }
+}
