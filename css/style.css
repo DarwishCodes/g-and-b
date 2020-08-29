@@ -75,7 +75,8 @@ body {
 
 .btn, .btn:link, .btn:visited {
   text-decoration: none;
-  padding: 0.5rem 3rem;
+  text-align: center;
+  padding: 1.5rem;
   display: inline-block;
   font-size: 1.5rem;
   background-color: #101010;
