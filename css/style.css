@@ -88,13 +88,15 @@ body {
   width: 15rem; }
 
 .resturant-item {
-  cursor: pointer; }
+  cursor: pointer;
+  margin-bottom: 5rem; }
   .resturant-item__background {
     background-color: rgba(16, 16, 16, 0.1);
     padding: 4rem; }
   .resturant-item__image-box {
     height: 39rem;
-    overflow: hidden; }
+    background-size: cover;
+    background-image: url(../img/dish.jpg); }
   .resturant-item__image {
     width: 100%; }
   .resturant-item__title {
