@@ -1,0 +1,32 @@
+.navigation-bar {
+    
+
+    &__wrap  {
+        display: flex;
+    }
+
+    &__wrap > * {
+        flex: 1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2rem 0;
+    }
+
+    &__delivery-time {
+        justify-content: flex-start;
+
+        p {
+            font-size: 1.5rem;
+
+            span {
+                font-weight: 500;
+            }
+        }
+    }
+
+    &__bag {
+        justify-content: flex-end;
+    }
+
+}

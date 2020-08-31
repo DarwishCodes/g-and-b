@@ -39,7 +39,7 @@ body {
 .heading-secondry {
   font-size: 3.5rem;
   display: inline-block;
-  text-transform: uppercase; }
+  font-weight: 300; }
 
 .heading-tertiary {
   font-size: 2.1rem;
@@ -86,6 +86,21 @@ body {
 
 .btn--width-15 {
   width: 15rem; }
+
+.btn-postion, .btn-postion:visited, .btn-postion:link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #101010; }
+
+.btn-postion__icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem; }
+
+.btn-postion__text {
+  font-size: 1.5rem;
+  font-weight: 500; }
 
 .resturant-item {
   cursor: pointer;
@@ -224,3 +239,23 @@ body {
     overflow: hidden; }
   .navigation__profile-image {
     width: 100%; }
+
+.navigation-bar__wrap {
+  display: flex; }
+
+.navigation-bar__wrap > * {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0; }
+
+.navigation-bar__delivery-time {
+  justify-content: flex-start; }
+  .navigation-bar__delivery-time p {
+    font-size: 1.5rem; }
+    .navigation-bar__delivery-time p span {
+      font-weight: 500; }
+
+.navigation-bar__bag {
+  justify-content: flex-end; }
