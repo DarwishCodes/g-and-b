@@ -102,6 +102,52 @@ body {
   font-size: 1.5rem;
   font-weight: 500; }
 
+.btn-add, .btn-add:visited, .btn-add:link {
+  text-decoration: none;
+  color: #101010;
+  border: 1px solid rgba(16, 16, 16, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 50%; }
+
+.btn-add__icon {
+  width: 3rem;
+  height: 3rem; }
+
+.dish-item {
+  display: flex; }
+  .dish-item__description {
+    display: flex;
+    align-items: center;
+    flex: 0 0 60%; }
+  .dish-item__photo-box {
+    overflow: hidden;
+    margin-right: 2rem;
+    height: 10rem; }
+  .dish-item__photo {
+    width: 18rem; }
+  .dish-item__name {
+    display: block;
+    font-size: 2rem;
+    font-weight: 400; }
+  .dish-item__title {
+    display: block;
+    font-size: 2rem;
+    font-weight: 300; }
+  .dish-item__price {
+    display: flex;
+    align-items: center; }
+    .dish-item__price span {
+      font-size: 2.5rem;
+      font-weight: 400; }
+  .dish-item__btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1; }
+
 .resturant-item {
   cursor: pointer;
   margin-bottom: 5rem; }
@@ -159,6 +205,16 @@ body {
   .sidebar-info__number {
     font-size: 7rem;
     font-weight: 300; }
+
+.sidebar-menu {
+  background-color: rgba(16, 16, 16, 0.1);
+  padding: 2rem; }
+  .sidebar-menu ul {
+    list-style: none;
+    margin-bottom: 3rem; }
+    .sidebar-menu ul li {
+      font-size: 1.8rem;
+      font-weight: 400; }
 
 .row {
   max-width: 114rem;

@@ -1,0 +1,13 @@
+.sidebar-menu {
+    background-color: rgba($color-primary, 0.1);
+    padding: 2rem;
+
+    ul {
+        list-style: none;
+        margin-bottom: 3rem;
+        li {
+            font-size: 1.8rem;
+            font-weight: 400;
+        }
+    }
+}
