@@ -43,16 +43,16 @@
                     <div class="row row--144">
                         <div class="navigation-bar__wrap">
                             <div class="navigation-bar__left">
-                                <p>Average delivery time: <span>70 min</span></p>
-                            </div>
-                            <h3 class="heading-tertiary">Dinner in the sky</h3>
-                            <div class="navigation-bar__right">
-                                <a href="#" class="btn-icon-text">
+                                <a href="#" class="btn-icon-text btn-icon-text--border">
                                     <svg class="btn-icon-text__icon">
-                                        <use xlink:href="img/sprite.svg#icon-shopping-bag"></use>
+                                        <use xlink:href="img/sprite.svg#icon-keyboard_arrow_left"></use>
                                     </svg>
-                                    <div class="btn-icon-text__text">0 position</div>
+                                    <div class="btn-icon-text__text">Back to search</div>
                                 </a>
+                            </div>
+
+                            <div class="navigation-bar__right">
+                                <p>Need Help? <span>+045 348 399 14</span></p>
                             </div>
                         </div>
                     </div>
@@ -62,9 +62,6 @@
         <main>
             <div class="row row--144">
                 <div class="col-2-of-3">
-                    <div class="u-margin-bottom-medium">
-                        <h2 class="heading-secondry">Top dishes from the chef</h2>
-                    </div>
                     <div class="dish-item">
                         <div class="dish-item__description">
                             <div class="dish-item__photo-box">
@@ -80,38 +77,54 @@
                             <span>$37.00</span>
                         </div>
                         <div class="dish-item__btn">
-                            <a href="#" class="btn-icon btn-icon--border">
+                            <a href="#" class="btn-icon">
                                 <svg class="btn-icon__icon">
-                                    <use xlink:href="img/sprite.svg#icon-add"></use>
+                                    <use xlink:href="img/sprite.svg#icon-delete"></use>
                                 </svg>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-1-of-3">
-                    <div class="sidebar-menu">
-                        <div class="u-margin-bottom-medium">
-                            <h3 class="heading-tertiary">Main menu</h3>
+                    <div class="sidebar-checkout">
+                        <div class="sidebar-checkout__heading">
+                            <svg class="sidebar-checkout__icon">
+                                <use xlink:href="img/sprite.svg#icon-shopping-bag"></use>
+                            </svg>
+                            <h2 class="heading-secondry">Your Order</h2>
                         </div>
-                        <ul>
-                            <li>Full Continental</li>
-                            <li>Continental Breakfast</li>
-                            <li>Eggs on toast</li>
-                            <li>Beacon & eggs on toast</li>
-                            <li>Beachway omelette</li>
-                            <li>French meat</li>
-                            <li>Pancakes</li>
-                            <li>Croissant or raisin bread</li>
-                        </ul>
-                        <div class="u-margin-bottom-medium">
-                            <h3 class="heading-tertiary">Drinks</h3>
+                        <div class="sidebar-checkout__promo">
+                            <div class="search__container">
+                                <form class="search" action="#">
+                                    <div class="search__input-container">
+                                        <input class="search__input" type="text" placeholder="Promo Code">
+                                    </div>
+                                    <a href="/choose-resturant.html" class="btn btn--width-15">Get Started</a href="/choose-resturant.html">
+                                </form>
+                            </div>
                         </div>
-                        <ul>
-                            <li>Water</li>
-                            <li>Orange Juice</li>
-                            <li>Lemonade</li>
-                            <li>Milkshake</li>
-                        </ul>
+                        <div class="sidebar-checkout__order">
+                            <div class="sidebar-checkout__order-price">
+                                <p>Order cost</p>
+                                <span>$69.00</span>
+                            </div>
+                            <div class="sidebar-checkout__delivery-price">
+                                <span>Delivery</span>
+                                <span>$10.00</span>
+                            </div>
+                        </div>
+                        <div class="sidebar-checkout__total">
+                            <div class="sidebar-checkout__order-price">
+                                <p>Total</p>
+                                <span>$79.00</span>
+                            </div>
+                        </div>
+
+                        <div class="u-center-text">
+                            <a href="#" class="btn btn--width-15">Checkout</a>
+                        </div>
+                        
+                        
                     </div>
                 </div>
             </div>

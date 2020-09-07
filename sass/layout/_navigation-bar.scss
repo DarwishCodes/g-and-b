@@ -13,7 +13,7 @@
         padding: 2rem 0;
     }
 
-    &__delivery-time {
+    &__left {
         justify-content: flex-start;
 
         p {
@@ -25,8 +25,16 @@
         }
     }
 
-    &__bag {
+    &__right {
         justify-content: flex-end;
+
+        p {
+            font-size: 1.5rem;
+
+            span {
+                font-weight: 500;
+            }
+        }
     }
 
 }

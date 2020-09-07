@@ -17,9 +17,16 @@
     &__input {
         border: none;
         outline: none;
-        width: 40rem;
         background-color: rgba($color-primary, 0);
         padding: 2rem 1rem;
+
+        &--width-large {
+            width: 40rem;
+        }
+
+        &--width-small {
+            width: 13rem;
+        }
     }
 
     &__icon {

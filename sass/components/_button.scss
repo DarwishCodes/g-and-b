@@ -20,7 +20,7 @@
     }
 }
 
-.btn-postion {
+.btn-icon-text {
     &,
     &:visited,
     &:link {
@@ -28,6 +28,11 @@
         display: flex;
         align-items: center;
         color: $color-primary;
+    }
+
+    &--border {
+        border: 1px solid rgba($color-primary, 0.1);
+        padding: 1.8rem 2rem;
     }
 
     &__icon {
@@ -42,16 +47,20 @@
     }
 }
 
-.btn-add {
+.btn-icon {
     &,
     &:visited,
     &:link {
         text-decoration: none;
         color: $color-primary;
-        border: 1px solid rgba($color-primary, 0.1);
         display: flex;
         justify-content: center;
         align-items: center;
+
+    }
+
+    &--border {
+        border: 1px solid rgba($color-primary, 0.1);
         padding: 1rem;
         border-radius: 50%;
     }
